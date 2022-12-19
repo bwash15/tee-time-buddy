@@ -2,6 +2,28 @@
 Finds courses within one mile of a latitude and longitude.  Returns course details that would be found on Google.  
 Shows weather information for the specified location
 
+User Stories:
+[I] was {visiting} my [dad] during the [holidays] and we {decided} [we] wanted to {play} a [round of golf].  We {checked} the [weather] to make sure it was going to be [nice enough] to enjoy [18 holes of golf]. As on the [last update time], the [weather] is {showing} ["Sunny"], [low clouds], and a [temp] of about 36 degrees today.  The [wind] is a SW [breeze] around 7 mph that is not {gusting} too bad.  Now that we {know} the [weather is good] all that is left is to {choose} a [course] to {play} and {head-out} in the [direction] of the [course].  {Looking} at a [list of all the courses in our area] that [are available] to play on, we {find one} that we have not {played} before and {select} that [course] from the [list]. 
+
+***-> Add additional feature to select the course from the list and check available Tee-Times <-*** 
+> possible link to the course website
+
+Nouns = Data Objects:
+ > Users: I, dad, we
+ > Golf Course: round-of-golf, course, direction to course, list of courses in the area
+ > Weather: wind, breeze, sunny, temp, last-update-time, low clouds
+
+Verbs = Methods/Actions of the application:
+ > visiting?
+ > decided?
+ > checked the weather
+ > viewed last update time
+ > showing the current weather information with the user
+ > what are the wind gusts?
+ > confirmed the weather is good enough to enjoy a round of golf
+ > Select the course from a list returned by the API
+
+
 Rapid API - Weather API
 https://rapidapi.com/weatherapi/api/weatherapi-com/
 
